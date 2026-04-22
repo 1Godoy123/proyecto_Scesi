@@ -1,0 +1,10 @@
+##en esto me ayudo la IA por que osea solo es un archivo para que nesecitaria un gitignore pero lo pide en las buenas practicas entonces 
+# Ignorar archivos del sistema (Basura)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignorar configuraciones de editores
+.vscode/
+.idea/
+*.swp
