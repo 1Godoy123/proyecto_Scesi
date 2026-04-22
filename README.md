@@ -37,6 +37,7 @@ Simplemente tienes que :
 Este una carpeta en la que GIT observa tus archivos y los cataloga en:
 * **Untracked** Es decir sin seguimiento osea ve el archivo pero no tiene unseguimiento ni versiones antiguas de este. 
 * **Modified** Es con una version antigua guardada un archivo que guardaste y que quieres modificar
+![Ejemplo](img/ejemplo.png)
 
 #### ¿Que pasa si el archivo no me gusto y quiero que se quede la version anterior?
 Para pasar de Modified a suestado original solo tienes que hacer este codigo
@@ -59,10 +60,12 @@ y si quieres desaserte de tu ultimo commmit solo tienes que hacer:
 
 ![estados de git](img/estados.png)
 
+![estados pero mas visual](img/estadosMasVisual.png)
 
 ### Buenas practicas 
 #### ¿Cada cuanto hacer un commit?
 Usar los commits atómicos. son una práctica de git donde cada confirmacion(commit)representa un cambio logico pequeño o que no afecte tanto 
+![comoNoUsarlosXD](img/commits.png)
 ### ¿Escribe buenos commits?
 un commmit debe de ser muy corto y muy descriptivo por eso se usa :
 **1 Verbos imperativos(Add,change,fix,remove)**
@@ -72,7 +75,7 @@ un commmit debe de ser muy corto y muy descriptivo por eso se usa :
 * **Remove** significa que se elimina un archivo existente
 **2 NO uses punto final ni suspensivos**
 usar puntuacion mas allá de las comas es innecesarioa la hora de crear un buen mensaje
-
+°[ejemplo](img/ejem.png)
 **3 no usar mas de 50 caracteres**
 se corto y conciso si no tienes mucho que explicar es probable que tu commit contenga demaciado cambias
 **4 usar un prefijo para hacerlos mas semanticos**
