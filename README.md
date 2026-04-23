@@ -75,7 +75,7 @@ un commmit debe de ser muy corto y muy descriptivo por eso se usa :
 * **Remove** significa que se elimina un archivo existente
 **2 NO uses punto final ni suspensivos**
 usar puntuacion mas allá de las comas es innecesarioa la hora de crear un buen mensaje
-°[ejemplo](img/ejem.png)
+![ejemplo](img/ejem.png)
 **3 no usar mas de 50 caracteres**
 se corto y conciso si no tienes mucho que explicar es probable que tu commit contenga demaciado cambias
 **4 usar un prefijo para hacerlos mas semanticos**
@@ -105,7 +105,7 @@ En ves de saturar el sumario de commit añade informacion nesesaria en el cuerpo
 ### Empezamos con GitHub 
 
 GitHub es como una red social para proyectos de programación. Me permite guardar mi código en la nube, trabajar en equipo, y llevar el control de todos los cambios que hago con Git. Básicamente, uso Git en mi compu para manejar versiones del código, y luego uso GitHub para subir todo eso a internet y colaborar con otros. 
-
+![logo de GitHub](img/logogit.png)
 ### ¿Git y GitHub son los mismos?
 
 Git y GitHub no son lo mismo, aunque se usan juntos casi siempre.
@@ -114,7 +114,7 @@ Git es una herramienta que tengo instalada en mi compu y me sirve para guardar l
 En cambio, GitHub es una página web donde puedo subir esos proyectos que manejo con Git, para tenerlos en la nube, compartirlos con otros y trabajar en equipo. Es como el “Google Drive” de los proyectos de código, pero mucho más pro porque tiene herramientas para colaborar, revisar cambios, automatizar tareas, y más.
 
 En resumen: Git es la herramienta, y GitHub es el lugar donde subo lo que hago con esa herramienta.
-
+![git + github](img/gitgithub.png)
 ## ¿GitHub es único?
 no es el  unico pero si es el mas popular pero esxisteno otras como
 
@@ -143,7 +143,7 @@ no es el  unico pero si es el mas popular pero esxisteno otras como
 </details>
 
 * **Podemos veer informacion de otras personas pero como es algo izi y no quiero llena mucho espacio enbano entonces no lo mostrare solo mostrare como se ve  el perfil de una persona XD
-
+![cuenta de github](img/cuanta.png)
 ## como clonar un repositorio
 |comando    | descripcion|
 |------------------|--------------|
