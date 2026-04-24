@@ -208,19 +208,22 @@ Este sirve para controlar nuestras conexiones con los repositorios remotos para 
 * **git remote -v** Nos permite ver donde apunta nuestro repositorio
 * **git remote add <apodo> "url"** vincula un repositorio local con uno en la nube
 * **git remote set-url <apodo> "url"** cambia la url donde apunta nuestro repositorio
+  
 ![tiro](img/tiro.png)
+
 ### Multiples SSH
-Si tenemos mas de una cuenta de GitHub o nesecitamos tener otras cuentas es util tener mas de un allave SSH,es como tener una llave para cada puerta,ubna no abre otra puerta
+Si tenemos mas de una cuenta de GitHub o nesecitamos tener otras cuentas es util tener mas de un allave SSH,es como tener una llave para cada puerta,una no abre otra puerta
+
 ![llave](img/llave.png)
+
 ### Configurar multiples SSH
 * **Paso 1** generamos el sshkey con otro nombre
 * **Paso 2** Creamos un archivo config para que no choquen las key
 * **Paso 3** verificamos que funcione
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d2c96de5-0adf-4e80-8ca2-f4dd279c8c94" alt="image" />
+  <img src="https://github.com/user-attachments/assets/207b5104-c66d-499a-9d93-592c16566eb3" alt="a5" />
 </p>
-
 
 ![code 1](img/code1.png)   ![code 2](img/code2.png)
 ### Configuraciones locales
