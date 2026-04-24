@@ -211,32 +211,38 @@ Este sirve para controlar nuestras conexiones con los repositorios remotos para 
 ![tiro](img/tiro.png)
 ### Multiples SSH
 Si tenemos mas de una cuenta de GitHub o nesecitamos tener otras cuentas es util tener mas de un allave SSH,es como tener una llave para cada puerta,ubna no abre otra puerta
-![llave](llave.png)
+![llave](img/llave.png)
 ### Configurar multiples SSH
 * **Paso 1** generamos el sshkey con otro nombre
 * **Paso 2** Creamos un archivo config para que no choquen las key
 * **Paso 3** verificamos que funcione
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d2c96de5-0adf-4e80-8ca2-f4dd279c8c94" alt="image" />
+</p>
+
+
 ![code 1](img/code1.png)   ![code 2](img/code2.png)
 ### Configuraciones locales
 Las configuraciones locales se imponen a las globales y estas solo funcionan para el repositorio
-**git config user.name "Mi nuevo nombre"**
-**git config user.email "tu@gmail.com"**
+* **git config user.name "Mi nuevo nombre"**
+* **git config user.email "tu@gmail.com"**
 
 ### Git Checkout
 Es el comando que nos permite desplasar el HEAD hacia un punto especifico de tu historial
-**Para que sirve?**
-**inspeccionar** ver como era el codigo antiguo 
-**Restaurar** recuperar archivos borrados o cambiados
-**Experimentar** Probar cambios sin arruinar la rama principal
-**Cambiar** saltarnos de una rama a otra 
+* **Para que sirve?**
+* **inspeccionar** ver como era el codigo antiguo 
+* **Restaurar** recuperar archivos borrados o cambiados
+* **Experimentar** Probar cambios sin arruinar la rama principal
+* **Cambiar** saltarnos de una rama a otra 
 ![chechout](img/tiempo.png)
 ### El Estado "Detached HEAD"
 en esta eres un espectador en el pasado ver todo y escribir nota pero no tienesn cuerpo y si te vas al presente sin "encarar" en una rama se pierden tus cambios
 ### Como ir y volver de un commit
-Para ir atras debes hacer:
-* **git checkout <hash_antiguo>**
-Y para volver al ultimo hash de la rama
-**git checkout <rama>**
+* **git checkout <hash_antiguo>**Para ir atras debes hacer
+**git checkout <rama>**Y para volver al ultimo hash de la rama
+
+
 Si hiciste algo aca (como un commit) desaparece
 salvo que hagas:
 **git checkout <hash_commit_creado>**
