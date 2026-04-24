@@ -208,15 +208,15 @@ Este sirve para controlar nuestras conexiones con los repositorios remotos para 
 * **git remote -v** Nos permite ver donde apunta nuestro repositorio
 * **git remote add <apodo> "url"** vincula un repositorio local con uno en la nube
 * **git remote set-url <apodo> "url"** cambia la url donde apunta nuestro repositorio
-
+![tiro](img/tiro.png)
 ### Multiples SSH
 Si tenemos mas de una cuenta de GitHub o nesecitamos tener otras cuentas es util tener mas de un allave SSH,es como tener una llave para cada puerta,ubna no abre otra puerta
-
+![llave](llave.png)
 ### Configurar multiples SSH
 * **Paso 1** generamos el sshkey con otro nombre
 * **Paso 2** Creamos un archivo config para que no choquen las key
 * **Paso 3** verificamos que funcione
-
+![code 1](img/code1.png)   ![code 2](img/code2.png)
 ### Configuraciones locales
 Las configuraciones locales se imponen a las globales y estas solo funcionan para el repositorio
 **git config user.name "Mi nuevo nombre"**
@@ -229,17 +229,19 @@ Es el comando que nos permite desplasar el HEAD hacia un punto especifico de tu 
 **Restaurar** recuperar archivos borrados o cambiados
 **Experimentar** Probar cambios sin arruinar la rama principal
 **Cambiar** saltarnos de una rama a otra 
+![chechout](img/tiempo.png)
 ### El Estado "Detached HEAD"
 en esta eres un espectador en el pasado ver todo y escribir nota pero no tienesn cuerpo y si te vas al presente sin "encarar" en una rama se pierden tus cambios
 ### Como ir y volver de un commit
 Para ir atras debes hacer:
-git checkout <hash_antiguo>
+* **git checkout <hash_antiguo>**
 Y para volver al ultimo hash de la rama
-git checkout <rama>
+**git checkout <rama>**
 Si hiciste algo aca (como un commit) desaparece
 salvo que hagas:
-git checkout <hash_commit_creado>
-git checkout -b rama_nueva
+**git checkout <hash_commit_creado>**
+**git checkout -b rama_nueva**
+![Ramas ](img/ramas.png)
 ### Buenas practicas del Checkout
 * **No trabajes mucho en 'Detached HEAD'"** si vas a escribir mucho mejor crea una rama nueva
 * **Limpia tu direccion de trabajo** antes de volver a un comit has un commit en  tu rama actual para poder volver al pasado si no git no te dejara volver
