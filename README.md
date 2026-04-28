@@ -256,3 +256,48 @@ salvo que hagas:
 * **Limpia tu direccion de trabajo** antes de volver a un comit has un commit en  tu rama actual para poder volver al pasado si no git no te dejara volver
 * **Usalo para aprender** Hacer checkout a commits de proyectos grandes es la mejor forma de ver como crecieron
 
+# Clase 5
+### Ramas y GitFlow basico
+
+La base del trabajo remote en git
+
+### ¿Que son las ramas?
+ 
+las ramas son utilidades de Git  que se usa para llevar un mejor control del codigo
+
+### Git Branch
+
+este es un comando que permite gestiionar las ramas que tiene o tendra nuestro proyecto
+
+* **git branch** lista las ramas disponibles y muestra tu pocicion actual
+* **git branch <rama>** crea una rama en la rama que estamos pocecionados 
+* **git branch -D <rama>** borra la rama
+
+### Git checkout enfocado en ramas
+
+se usa para ver archivos pasados pero tambien para cambiar de ramas y crear una rama y te mueve a ella directamente
+
+### Git checkout vs git switch
+####¿Por que existen ambos? 
+La diferencia es muy facil la vedad el git checkout es multipropocitopero puede dejarte en detached HEAD  y el git switch es espeecialisado en ramas y evita accidente  a la hora de moverte
+
+
+### GitFlow Basico
+#### ¿Que es?
+Es un flujo de trabajo el cual nos permite trabajar de manera ordenada en nuestra ramas versiones y permite unna facil adaptacion
+
+#### Como funciona Gitflow
+
+| **Comando**                                      | **¿Para qué sirve?**                                                                                   |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| `main`                                           | Su propocito es crear y contener el codigo que se encuentra en producion                                       |
+| `develop`                                        | Es la rama de PreProduccion su propocito es tener caracteristicas que estan aprueba pero todavia no han sido validadas                     |
+| `ramas de apoyo`                                 | Somos ramas que nos permitian escribir nuestro codigo estas son feature release y hotfix                                     |
+
+
+### Ramas de apoyo
+* **feature** Cuando trabajas en una nueva caracteristica para el proyecto
+* **release** Cuando preparas el lanzamiento de una nueva vercion
+* **hotfix** Para trabajar en cambios imprecistos como parches para arreglar un bug o un problema en produccion 
+
+
