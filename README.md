@@ -258,13 +258,14 @@ salvo que hagas:
 
 # Clase 5
 ### Ramas y GitFlow basico
-
 La base del trabajo remote en git
 
+![Git flow](img/gitflow.png)
 ### ¿Que son las ramas?
  
 las ramas son utilidades de Git  que se usa para llevar un mejor control del codigo
 
+![ramas](img/rama.png)
 ### Git Branch
 
 este es un comando que permite gestiionar las ramas que tiene o tendra nuestro proyecto
@@ -277,15 +278,17 @@ este es un comando que permite gestiionar las ramas que tiene o tendra nuestro p
 
 se usa para ver archivos pasados pero tambien para cambiar de ramas y crear una rama y te mueve a ella directamente
 
+![checkout](img/checkout.png)
 ### Git checkout vs git switch
 ####¿Por que existen ambos? 
 La diferencia es muy facil la vedad el git checkout es multipropocitopero puede dejarte en detached HEAD  y el git switch es espeecialisado en ramas y evita accidente  a la hora de moverte
 
-
+![checkout vs switch](img/vsgit.png)
 ### GitFlow Basico
 #### ¿Que es?
 Es un flujo de trabajo el cual nos permite trabajar de manera ordenada en nuestra ramas versiones y permite unna facil adaptacion
 
+![gitflow](img/gitflo.png)
 #### Como funciona Gitflow
 
 | **Comando**                                      | **¿Para qué sirve?**                                                                                   |
@@ -300,4 +303,4 @@ Es un flujo de trabajo el cual nos permite trabajar de manera ordenada en nuestr
 * **release** Cuando preparas el lanzamiento de una nueva vercion
 * **hotfix** Para trabajar en cambios imprecistos como parches para arreglar un bug o un problema en produccion 
 
-
+![resumen](img/resumen.png)
