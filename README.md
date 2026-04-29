@@ -4,10 +4,14 @@ Jherson Godoy Montaño
 # Clase 1
 ### ¿Que es GIT?
 Es un sistema de control de versiones distribuido, Este nos permite guardar archivos y las versiones de estos a lo largo del tiempo de manera local
+
 ![imagen de git](img/git.png)
+
 ### ¿Como nacio GIT?
 GIT nacio un en abril del 2005 creado por Linus Torvalds, antes de siquiera pensar en la creacion de git exitia lo que es Bitkeeper y el señor Torvals usaba este ya que era gratuito peroun dia los de Bitkeeper decidieronempesar a cobra por los usos de este cosa que no le gusto a linus Torval por lo que enojado decidio encerarse en su cuarto unas 2 a 3 semana para crear algo mejor  que Bitkeeper y asi nacio por un enfado xd
+
 ![Creador de GIT](img/creador.png)
+
 ### ¿Como instalar GIT?
 #### En windows
 Simplemente tienes que :
@@ -22,7 +26,9 @@ Simplemente tienes que :
   * copias el codigo segun la distrubucion que tengas
   * lo pegas en tu terminal 
   * revisas que se instalo con git --version en la terminal
-![Sistemas operativos](img/OP.png)
+    
+![Sistemas operativos](img/SO.png)
+
 ### Configuraciones Básicas 
  * git config --global user.name "Tu Nombre"
  * git config --global user.email "tu@correo.com"
@@ -31,7 +37,9 @@ Simplemente tienes que :
 ### States y commits
 * **STATES** sirve para inicialisar el guardado y cuales quieres guardar
 * **COMMITS** es el comentario que subes para decir que cambio hiciste
-![imagen chistosa](img/imagenchistosa.png)
+
+![imagen chistosa](img/imagenchistosa)
+
 ### Los estados de GIT
 #### Directorio de trabajo(Modificado)
 Este una carpeta en la que GIT observa tus archivos y los cataloga en:
@@ -65,7 +73,9 @@ y si quieres desaserte de tu ultimo commmit solo tienes que hacer:
 ### Buenas practicas 
 #### ¿Cada cuanto hacer un commit?
 Usar los commits atómicos. son una práctica de git donde cada confirmacion(commit)representa un cambio logico pequeño o que no afecte tanto 
+
 ![comoNoUsarlosXD](img/commits.png)
+
 ### ¿Escribe buenos commits?
 un commmit debe de ser muy corto y muy descriptivo por eso se usa :
 **1 Verbos imperativos(Add,change,fix,remove)**
@@ -75,7 +85,9 @@ un commmit debe de ser muy corto y muy descriptivo por eso se usa :
 * **Remove** significa que se elimina un archivo existente
 **2 NO uses punto final ni suspensivos**
 usar puntuacion mas allá de las comas es innecesarioa la hora de crear un buen mensaje
+
 ![ejemplo](img/ejem.png)
+
 **3 no usar mas de 50 caracteres**
 se corto y conciso si no tienes mucho que explicar es probable que tu commit contenga demaciado cambias
 **4 usar un prefijo para hacerlos mas semanticos**
@@ -105,7 +117,9 @@ En ves de saturar el sumario de commit añade informacion nesesaria en el cuerpo
 ### Empezamos con GitHub 
 
 GitHub es como una red social para proyectos de programación. Me permite guardar mi código en la nube, trabajar en equipo, y llevar el control de todos los cambios que hago con Git. Básicamente, uso Git en mi compu para manejar versiones del código, y luego uso GitHub para subir todo eso a internet y colaborar con otros. 
+
 ![logo de GitHub](img/logogit.png)
+
 ### ¿Git y GitHub son los mismos?
 
 Git y GitHub no son lo mismo, aunque se usan juntos casi siempre.
@@ -114,7 +128,9 @@ Git es una herramienta que tengo instalada en mi compu y me sirve para guardar l
 En cambio, GitHub es una página web donde puedo subir esos proyectos que manejo con Git, para tenerlos en la nube, compartirlos con otros y trabajar en equipo. Es como el “Google Drive” de los proyectos de código, pero mucho más pro porque tiene herramientas para colaborar, revisar cambios, automatizar tareas, y más.
 
 En resumen: Git es la herramienta, y GitHub es el lugar donde subo lo que hago con esa herramienta.
+
 ![git + github](img/gitgithub.png)
+
 ## ¿GitHub es único?
 no es el  unico pero si es el mas popular pero esxisteno otras como
 
@@ -143,7 +159,9 @@ no es el  unico pero si es el mas popular pero esxisteno otras como
 </details>
 
 * **Podemos veer informacion de otras personas pero como es algo izi y no quiero llena mucho espacio enbano entonces no lo mostrare solo mostrare como se ve  el perfil de una persona XD
+
 ![cuenta de github](img/cuanta.png)
+
 ## como clonar un repositorio
 |comando    | descripcion|
 |------------------|--------------|
@@ -226,6 +244,7 @@ Si tenemos mas de una cuenta de GitHub o nesecitamos tener otras cuentas es util
 </p>
 
 ![code 1](img/code1.png)   ![code 2](img/code2.png)
+
 ### Configuraciones locales
 Las configuraciones locales se imponen a las globales y estas solo funcionan para el repositorio
 * **git config user.name "Mi nuevo nombre"**
@@ -238,7 +257,9 @@ Es el comando que nos permite desplasar el HEAD hacia un punto especifico de tu 
 * **Restaurar** recuperar archivos borrados o cambiados
 * **Experimentar** Probar cambios sin arruinar la rama principal
 * **Cambiar** saltarnos de una rama a otra 
+
 ![chechout](img/tiempo.png)
+
 ### El Estado "Detached HEAD"
 en esta eres un espectador en el pasado ver todo y escribir nota pero no tienesn cuerpo y si te vas al presente sin "encarar" en una rama se pierden tus cambios
 ### Como ir y volver de un commit
@@ -250,7 +271,9 @@ Si hiciste algo aca (como un commit) desaparece
 salvo que hagas:
 **git checkout <hash_commit_creado>**
 **git checkout -b rama_nueva**
+
 ![Ramas ](img/ramas.png)
+
 ### Buenas practicas del Checkout
 * **No trabajes mucho en 'Detached HEAD'"** si vas a escribir mucho mejor crea una rama nueva
 * **Limpia tu direccion de trabajo** antes de volver a un comit has un commit en  tu rama actual para poder volver al pasado si no git no te dejara volver
@@ -261,11 +284,13 @@ salvo que hagas:
 La base del trabajo remote en git
 
 ![Git flow](img/gitflow.png)
+
 ### ¿Que son las ramas?
  
 las ramas son utilidades de Git  que se usa para llevar un mejor control del codigo
 
 ![ramas](img/rama.png)
+
 ### Git Branch
 
 este es un comando que permite gestiionar las ramas que tiene o tendra nuestro proyecto
@@ -279,16 +304,19 @@ este es un comando que permite gestiionar las ramas que tiene o tendra nuestro p
 se usa para ver archivos pasados pero tambien para cambiar de ramas y crear una rama y te mueve a ella directamente
 
 ![checkout](img/checkout.png)
+
 ### Git checkout vs git switch
 ####¿Por que existen ambos? 
 La diferencia es muy facil la vedad el git checkout es multipropocitopero puede dejarte en detached HEAD  y el git switch es espeecialisado en ramas y evita accidente  a la hora de moverte
 
 ![checkout vs switch](img/vsgit.png)
+
 ### GitFlow Basico
 #### ¿Que es?
 Es un flujo de trabajo el cual nos permite trabajar de manera ordenada en nuestra ramas versiones y permite unna facil adaptacion
 
 ![gitflow](img/gitflo.png)
+
 #### Como funciona Gitflow
 
 | **Comando**                                      | **¿Para qué sirve?**                                                                                   |
@@ -343,7 +371,7 @@ Este comando se utilisa para descargar confirmaciones, archivos y referencia de 
 #### git pull origin develop
 es una instruccion estandar de git que se utilisa para actualisar la rama local actual con los ultimos cambios de la rama develop en el servidor remoto
 
-![develop](img/develop)
+![develop](img/develop.png)
 
 #### git merge -no-ff rama
 se utilisa para fusionar la rama llamada "rama" en tu rama actual, forzando siempre la creacion de un commit de fusionincluso si git pudiera realisar un "fast-forward"
