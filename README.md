@@ -311,13 +311,17 @@ Merge significa fusion, entonces esto quiere decir que nos permite fusionar nues
 
 * **-no-ff** que significa no fast forward
 
-este codigo hace que se pierda el historial de ramas y te fur¿erse a hacer un commit para tu merfesin que pierdas el historial de ramas, aun si la borras
+![merge](img/merge.png)
+
+este codigo hace que se pierda el historial de ramas y te fuerse a hacer un commit para tu merfesin que pierdas el historial de ramas, aun si la borras
 ### ¿Que es git fetch?
 es el comando que permite ver si hubo cambios en la rama y sus ramas hijas
 ### ¿Que es git pull?
 el comnando git pull permite traer todos los cambiosque tiene el repositorio remoto de esa rama Se usa para el origin y el nombre de la rama para que no tengas problema al subirla 
 
 * **git pull origin rama**
+
+![git fetch y pull](img/fetchypull.png)
 
 ### Que es git push?
 es el comando que sube tus cambios al repositorio remoto de esa rama con
@@ -327,6 +331,9 @@ es el comando que sube tus cambios al repositorio remoto de esa rama con
 si no es tu repositorio la primera ves que hagas push de tu rama debes hacerlo con el **flag -u** para que no tengan que pedir permiso
 
 * **git pull origin -u rama**
+
+![push en la rama](img/pushrama.png)
+
 ### flujo de trabajo(Sin pull requests)
 #### git checkout develop
 se usa cuandoquieres cambiar el directorio de trabajo a la rama develop. Esta rama se usa comunmente en  flujos de trabajo de desarrollo
@@ -335,6 +342,9 @@ se usa cuandoquieres cambiar el directorio de trabajo a la rama develop. Esta ra
 Este comando se utilisa para descargar confirmaciones, archivos y referencia de un repositorio remoto a un repositorio local
 #### git pull origin develop
 es una instruccion estandar de git que se utilisa para actualisar la rama local actual con los ultimos cambios de la rama develop en el servidor remoto
+
+![develop](img/develop)
+
 #### git merge -no-ff rama
 se utilisa para fusionar la rama llamada "rama" en tu rama actual, forzando siempre la creacion de un commit de fusionincluso si git pudiera realisar un "fast-forward"
 
@@ -347,3 +357,5 @@ se utilisa para fusionar la rama llamada "rama" en tu rama actual, forzando siem
 * **git branch -d** Borra la rama auxiliar una vez que sus cambios ya están seguros en la rama principal.
 
 * **git push** Actualiza el servidor remoto con el resultado de la fusión.
+
+![merger](img/merger.png)
