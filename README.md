@@ -304,3 +304,46 @@ Es un flujo de trabajo el cual nos permite trabajar de manera ordenada en nuestr
 * **hotfix** Para trabajar en cambios imprecistos como parches para arreglar un bug o un problema en produccion 
 
 ![resumen](img/resumen.png)
+
+# clase 6
+### ¿Que es git merge?
+Merge significa fusion, entonces esto quiere decir que nos permite fusionar nuestras ramas en una sola para que ambas tengan los commits hechos 
+
+* **-no-ff** que significa no fast forward
+
+este codigo hace que se pierda el historial de ramas y te fur¿erse a hacer un commit para tu merfesin que pierdas el historial de ramas, aun si la borras
+### ¿Que es git fetch?
+es el comando que permite ver si hubo cambios en la rama y sus ramas hijas
+### ¿Que es git pull?
+el comnando git pull permite traer todos los cambiosque tiene el repositorio remoto de esa rama Se usa para el origin y el nombre de la rama para que no tengas problema al subirla 
+
+* **git pull origin rama**
+
+### Que es git push?
+es el comando que sube tus cambios al repositorio remoto de esa rama con
+
+* **git push origin rama**
+
+si no es tu repositorio la primera ves que hagas push de tu rama debes hacerlo con el **flag -u** para que no tengan que pedir permiso
+
+* **git pull origin -u rama**
+### flujo de trabajo(Sin pull requests)
+#### git checkout develop
+se usa cuandoquieres cambiar el directorio de trabajo a la rama develop. Esta rama se usa comunmente en  flujos de trabajo de desarrollo
+
+#### git fetch
+Este comando se utilisa para descargar confirmaciones, archivos y referencia de un repositorio remoto a un repositorio local
+#### git pull origin develop
+es una instruccion estandar de git que se utilisa para actualisar la rama local actual con los ultimos cambios de la rama develop en el servidor remoto
+#### git merge -no-ff rama
+se utilisa para fusionar la rama llamada "rama" en tu rama actual, forzando siempre la creacion de un commit de fusionincluso si git pudiera realisar un "fast-forward"
+
+*  **git add .** Indica a Git que ya revisaste los archivos y que los conflictos están resueltos manualmente.
+
+* **git commit** Finaliza oficialmente la fusión. Crea el "Merge Commit" que une ambas ramas en el historial.
+
+* **Editor (Nano/Vim)** Se abre automáticamente para que confirmes el mensaje del commit (ej. Merge branch 'rama' into develop).
+
+* **git branch -d** Borra la rama auxiliar una vez que sus cambios ya están seguros en la rama principal.
+
+* **git push** Actualiza el servidor remoto con el resultado de la fusión.
