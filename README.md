@@ -391,16 +391,19 @@ se utilisa para fusionar la rama llamada "rama" en tu rama actual, forzando siem
 # Clase 7 
 ### Que son lo pull request?
 Tambien informalmente llamados (PRs) es la forma progecional dde trabajr con git/gothubeset vrea um reques para este permite ver que se quiere mergear en el sistema
-
+![request](img/pull.png)
 ### Como crear un PR
 para ello lo primero que hagas debe de ser  **git push origin main** deves de rederigirte a github y segiuir el tuto **https://youtu.be/4CeMKqloOJc**
-####Flujo de trabajo (Con pull request)
+
+#### Flujo de trabajo (Con pull request)
 * Flujo de trabajo (Con Pull Requests)
 * git checkout develop
 * git fetch
 * git pull origin develop
 * git checkout rama # Agregas -b si estás creando la rama
 * git merge develop # Solo si hubo cambios en develop
+
+![flujo](img/flujo.png)
 #### Trabajas en tu rama
 git push origin rama # Agregas -u si es la primera vez que subes cambios al repositorio remoto
 git checkout develop
@@ -412,7 +415,7 @@ git add .
 git commit
 [Ctrl + O, Enter, Ctrl + X](depende si usan nano)
 git push origin raiz
-
+![archivos](img/archivos.png)
 ### Por que usamos los PRs si ya podemos trabajar normalmente sin ellos
 
 los usamos por temas de segurida, que cualquier colaborador pueda tocar nuestro repositorio por temas de seguridad que cualquier colaborador pueda tocar nuestro repositorio y mergear sin preguntar o avisar es un iesgo constante
@@ -422,6 +425,7 @@ los PRs permite al equipo y lo fuerza a ver los cambios , limita la colaboracion
 ### Como proteger mi repositorio y limitar la colaboracion?
 ya sabemos la importancia de los PRs pero aun asi o menos limitado nada seguimos confiando en nuestros colaboradores
 
+![proteccion](img/proteger.png)
 
 
 
