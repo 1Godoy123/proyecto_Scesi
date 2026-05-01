@@ -427,9 +427,23 @@ ya sabemos la importancia de los PRs pero aun asi o menos limitado nada seguimos
 
 ![proteccion](img/proteger.png)
 
+# Clase 8
+### Git diff
+muestra la diferencia entre dos conjuntos de datos este muestra los cambios que aun no se han preparado(no pasaron por git add .)
 
+### Git diff .
+muestra la diferencia  entre tu directorio de trabajo actual  y el area de preparacionen el directorio actual y sus subdirectorios
 
+### Git diff archivo 
+muestra las diferencias exactas linea por linea entre el archivo en tu directorio de trabajo actual y la ultimoversion confirmada(HEAD) o el area de preparacion
 
+### Git diff --staged
+muestra la diferencia entre los cambios que has añadido al "standing area" y el ultimo commit realisado
+
+### Git dif rama1 rama2
+muestra la diferencia detallada linea por linea entre las puntas del HEAD de dos ramas mostrando que cambios se deben aplicar a la rama1 para que sea identica a la rama2
+
+ 
 
 
 
