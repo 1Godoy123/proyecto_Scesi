@@ -445,9 +445,14 @@ muestra la diferencia entre los cambios que has añadido al "standing area" y el
 ![staged](img/stagedd.png)
 ### Git dif rama1 rama2
 muestra la diferencia detallada linea por linea entre las puntas del HEAD de dos ramas mostrando que cambios se deben aplicar a la rama1 para que sea identica a la rama2
-![ramas](img/ramasa)
+![ramas](img/ramasa.png)
  
+# Nota
+Se acaba mi proyecto en git hub para postular a la scesi expero aprobar xd
 
+<p align="center">
+  <img src="https://i.makeagif.com/media/10-02-2015/nftfX2.gif" alt="Explosión de Calamardo">
+</p>
 
 
 
